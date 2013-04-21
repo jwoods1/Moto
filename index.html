@@ -14,87 +14,127 @@
 	</head>
 	<body>
 		<div data-role="page" id="home" data-theme="b">
-			<div data-role="panel" id="mypanel" data-theme="b">
+			<div data-role="panel" id="mypanel" data-theme="b" data-position="right">
     			<div data-role="header" data-theme="b">
     				<h1>Options</h1>
     			</div>
-    			<a href="#four"><h2>Race Teams</h3></a>
+    			<div data-role="content" data-theme="b">
+    				<div data-role="listview" data-theme="b" data-inset="true">
+		    			<a href="#three" data-role="button">Races</a>
+		    			<a href="#four" data-role="button">Teams</a>
+		    			<a href="#five" data-role="button">Profile</a>
+		    			<a href="#six" data-role="button">Series</a>
+		    			<a href="#home" data-role="button">Settings</a>
+    				</div>
+    			</div>
+
+
 			</div><!-- /panel -->
 			<div data-role="header" data-position="fixed" data-theme="b">
+			<a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext" class="ui-btn-right" >options</a>
 			<h1>	<img src="img/MotoD.com_03.png" id="logo" class="ui-btn-left" /></h1>
-    			
 
-    			<div data-role="navbar">
-       			 	<ul>
-	            		<li><a href="#home" class="ui-btn-active">Main</a></li>
-	            		<li><a href="#two">Results</a></li>
-	            		<li><a href="#three">Race</a></li>
-        			</ul>
-    			</div><!-- /navbar -->
 			</div><!-- /header -->
 			<div data-role="content" data-theme="b">
-				<a href="#mypanel">Panel</a>
+				<div data-role="listview" data-inset="true">
+					<a href="#two" data-role="button" data-icon="info">Create Account</a>
 
 
 				<div class="search" >
 					<input type="text" data-mini="true" id="search" placeholder="Search Riders Here!" />
 					<input type="button"  data-mini="true" value="Find!" id="find" />
 				</div>
-			
+			</div>
 			</div>	
 				
 	
 		</div><!--/home-->
 		<div data-role="page" id="two" data-theme="b">
-			<div data-role="header" data-position="fixed" data-theme="b">
-			<h1>	<img src="img/MotoD.com_03.png" id="logo" class="ui-btn-left" /></h1>
-    			
+			<div data-role="panel" id="mypanel" data-theme="b" data-position="right">
+    			<div data-role="header" data-theme="b">
+    				<h1>Pages</h1>
+    			</div>
+    			<div data-role="content" data-theme="b">
+    				<div data-role="listview" data-theme="b">
+		    			<a href="#three" data-role="button">Races</a>
+		    			<a href="#four" data-role="button">Teams</a>
+		    			<a href="#five" data-role="button">Profile</a>
+		    			<a href="#six" data-role="button">Series</a>
+		    			<a href="#home" data-role="button">Settings</a>
+    				</div>
+    			</div>
 
-    			<div data-role="navbar">
-       			 	<ul>
-	            		<li><a href="#home">Main</a></li>
-	            		<li><a href="#two" class="ui-btn-active" >Teams</a></li>
-	            		<li><a href="#three">Picks</a></li>
-        			</ul>
-    			</div><!-- /navbar -->
+
+			</div><!-- /panel -->
+			<div data-role="header" data-position="fixed" data-theme="b">
+			<a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext" class="ui-btn-right" >options</a>
+			<h1>	<img src="img/MotoD.com_03.png" id="logo" class="ui-btn-left" /></h1>
+
 			</div><!-- /header -->
-			<div data-role="content" data-theme="b">
-			
+			<div data-role="content" data-theme="a">
+				<div data-role="listview" data-theme="b" data-inset="true">
+					<h2> Create New Account</h2>
+					<h3>join With Facebook</h3>
+					<h3>Or</h3>
+					<h3>Create Username and Password</h3>
+					<input type="text" id="username" placeholder="New Username"/>
+					<input type="text" id="password" placeholder="Password"/>
+					<input type="text" id="pconfirm" placeholder="Confirm Password"/>
+					<a href="#home" data-role="button" data-icon="plus">Create Account</a>
+				</div>
 			</div>	
 				
 	
 		</div><!--/two-->
 			<div data-role="page" id="three" data-theme="b">
-			<div data-role="header" data-position="fixed" data-theme="b">
-			<h1>	<img src="img/MotoD.com_03.png" id="logo" class="ui-btn-left" /></h1>
-    			
+			<div data-role="panel" id="mypanel" data-theme="b" data-position="right">
+    			<div data-role="header" data-theme="b">
+    				<h1>Options</h1>
+    			</div>
+    			<div data-role="content" data-theme="b">
+    				<div data-role="listview" data-theme="b">
+		    			<a href="#three" data-role="button">Races</a>
+		    			<a href="#four" data-role="button">Teams</a>
+		    			<a href="#five" data-role="button">Profile</a>
+		    			<a href="#six" data-role="button">Series</a>
+		    			<a href="#home" data-role="button">Settings</a>
+    				</div>
+    			</div>
 
-    			<div data-role="navbar">
-       			 	<ul>
-	            		<li><a href="#home">Main</a></li>
-	            		<li><a href="#two">Teams</a></li>
-	            		<li><a href="#three" class="ui-btn-active">Picks</a></li>
-        			</ul>
-    			</div><!-- /navbar -->
+
+			</div><!-- /panel -->
+			<div data-role="header" data-position="fixed" data-theme="b">
+			<a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext" class="ui-btn-right" >options</a>
+			<h1>	<img src="img/MotoD.com_03.png" id="logo" class="ui-btn-left" /></h1>
+
 			</div><!-- /header -->
 			<div data-role="content" data-theme="b">
-			<h2> Picks</h2>
+			<h2> Races</h2>
 			</div>	
 				
 	
 		</div><!--/three-->
 				<div data-role="page" id="four" data-theme="b">
-			<div data-role="header" data-position="fixed" data-theme="b">
-			<h1>	<img src="img/MotoD.com_03.png" id="logo" class="ui-btn-left" /></h1>
-    			
+			<div data-role="panel" id="mypanel" data-theme="b" data-position="right">
+    			<div data-role="header" data-theme="b">
+    				<h1>Options</h1>
+    			</div>
+    			<div data-role="content" data-theme="b">
+    				<div data-role="listview" data-theme="b">
+		    			<a href="#three" data-role="button">Races</a>
+		    			<a href="#four" data-role="button">Teams</a>
+		    			<a href="#five" data-role="button">Profile</a>
+		    			<a href="#six" data-role="button">Series</a>
+		    			<a href="#home" data-role="button">Settings</a>
+    				</div>
+    			</div>
 
-    			<div data-role="navbar">
-       			 	<ul>
-	            		<li><a href="#home">Main</a></li>
-	            		<li><a href="#two">Teams</a></li>
-	            		<li><a href="#three" class="ui-btn-active">Picks</a></li>
-        			</ul>
-    			</div><!-- /navbar -->
+
+			</div><!-- /panel -->
+			<div data-role="header" data-position="fixed" data-theme="b">
+			<a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext" class="ui-btn-right" >options</a>
+			<h1>	<img src="img/MotoD.com_03.png" id="logo" class="ui-btn-left" /></h1>
+
 			</div><!-- /header -->
 			<div data-role="content" data-theme="b">
 			<h2> Picks</h2>
@@ -103,17 +143,26 @@
 	
 		</div><!--/four-->
 				<div data-role="page" id="five" data-theme="b">
-			<div data-role="header" data-position="fixed" data-theme="b">
-			<h1>	<img src="img/MotoD.com_03.png" id="logo" class="ui-btn-left" /></h1>
-    			
+			<div data-role="panel" id="mypanel" data-theme="b" data-position="right">
+    			<div data-role="header" data-theme="b">
+    				<h1>Options</h1>
+    			</div>
+    			<div data-role="content" data-theme="b">
+    				<div data-role="listview" data-theme="b">
+		    			<a href="#three" data-role="button">Races</a>
+		    			<a href="#four" data-role="button">Teams</a>
+		    			<a href="#five" data-role="button">Profile</a>
+		    			<a href="#six" data-role="button">Series</a>
+		    			<a href="#home" data-role="button">Settings</a>
+    				</div>
+    			</div>
 
-    			<div data-role="navbar">
-       			 	<ul>
-	            		<li><a href="#home">Main</a></li>
-	            		<li><a href="#two">Teams</a></li>
-	            		<li><a href="#three" class="ui-btn-active">Picks</a></li>
-        			</ul>
-    			</div><!-- /navbar -->
+
+			</div><!-- /panel -->
+			<div data-role="header" data-position="fixed" data-theme="b">
+			<a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext" class="ui-btn-right" >options</a>
+			<h1>	<img src="img/MotoD.com_03.png" id="logo" class="ui-btn-left" /></h1>
+
 			</div><!-- /header -->
 			<div data-role="content" data-theme="b">
 			<h2> Picks</h2>
@@ -122,17 +171,26 @@
 	
 		</div><!--/five-->
 				<div data-role="page" id="six" data-theme="b">
-			<div data-role="header" data-position="fixed" data-theme="b">
-			<h1>	<img src="img/MotoD.com_03.png" id="logo" class="ui-btn-left" /></h1>
-    			
+			<div data-role="panel" id="mypanel" data-theme="b" data-position="right">
+    			<div data-role="header" data-theme="b">
+    				<h1>Options</h1>
+    			</div>
+    			<div data-role="content" data-theme="b">
+    				<div data-role="listview" data-theme="b">
+		    			<a href="#three" data-role="button">Races</a>
+		    			<a href="#four" data-role="button">Teams</a>
+		    			<a href="#five" data-role="button">Profile</a>
+		    			<a href="#six" data-role="button">Series</a>
+		    			<a href="#home" data-role="button">Settings</a>
+    				</div>
+    			</div>
 
-    			<div data-role="navbar">
-       			 	<ul>
-	            		<li><a href="#home">Main</a></li>
-	            		<li><a href="#two">Teams</a></li>
-	            		<li><a href="#three" class="ui-btn-active">Picks</a></li>
-        			</ul>
-    			</div><!-- /navbar -->
+
+			</div><!-- /panel -->
+			<div data-role="header" data-position="fixed" data-theme="b">
+			<a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext" class="ui-btn-right" >options</a>
+			<h1>	<img src="img/MotoD.com_03.png" id="logo" class="ui-btn-left" /></h1>
+
 			</div><!-- /header -->
 			<div data-role="content" data-theme="b">
 			<h2> Picks</h2>
